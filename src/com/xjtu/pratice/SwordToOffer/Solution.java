@@ -24,7 +24,7 @@ public class Solution {
         }
         TreeNode root = new TreeNode(pre[preStart]);
 
-        for (int i = inStart; i < inEnd; i++)
+        for (int i = inStart; i <= inEnd; i++)
             if (pre[preStart] == in[i]) {
                 root.left = reConstructBinaryTree(pre, preStart + 1, preStart + i - inStart,
                         in, inStart, i - 1);
