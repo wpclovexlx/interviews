@@ -4,7 +4,7 @@ package com.xjtu.pratice.SwordToOffer;
  * 根据前序和和中序重建二叉树
  *
  * */
-public class Solution {
+public class reConstructBinaryTrees {
     public static void main(String[] args) {
         int[] a = {1, 2, 4, 7, 3, 5, 6, 8};
         int[] b = {4, 7, 2, 1, 5, 3, 8, 6};
